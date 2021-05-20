@@ -19,34 +19,34 @@
 #include<conio.h>
 
 //CALL TO CLASS FUNCTIONS
-#include"Funciones.cpp"
+#include"Functions.cpp"
 
 
 int main(){
 	
 	//ATTRIBUTE STATEMENT
-	float valor1,valor2;
-	Operaciones<float> ope;
+	float value_1,value_2;
+	Operations<float> ope;
 	
 	//STRUCTURE
 	cout<<"**********************************"<<endl;
 	cout<<"\tBASIC OPERATIONS"<<endl;
 	cout<<"Please, enter the desired number: ";
-	cin>>valor1;
-	ope.setValor1(valor1);
+	cin>>value_1;
+	ope.setValue_1(value_1);
 	cout<<"Please, enter the desired number: ";
-	cin>>valor2;
+	cin>>value_2;
 	cout<<endl;
-	ope.setValor2(valor2);
+	ope.setValue_2(value_2);
 	
 	//CALL TO METHODS
-	Funciones<float> operacion;
+	Functions<float> operation;
 	cout<<"---------------------------------"<<endl;
 	cout<<"\tRESULTS"<<endl;
-	cout<<"SUM = "<<"\t\t\t"<<operacion.suma(ope)<<endl;	
-	cout<<"SUBTRACTION = "<<"\t\t"<<operacion.resta(ope)<<endl;	
-	cout<<"MULTIPLICATION = "<<"\t"<<operacion.multiplicacion(ope)<<endl;	
-	cout<<"DIVISION = "<<"\t\t"<<operacion.division(ope)<<endl;	
+	cout<<"SUM = "<<"\t\t\t"<<operation.add(ope)<<endl;	
+	cout<<"SUBTRACTION = "<<"\t\t"<<operation.subtract(ope)<<endl;	
+	cout<<"MULTIPLICATION = "<<"\t"<<operation.multiply(ope)<<endl;	
+	cout<<"DIVISION = "<<"\t\t"<<operation.divide(ope)<<endl;	
 	cout<<"---------------------------------";
 	return 0;
 }
