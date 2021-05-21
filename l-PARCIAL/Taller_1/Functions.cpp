@@ -37,7 +37,12 @@ function Functions <function>::multiply(Operations<function> ope){
 template <typename function>
 function Functions <function>::divide(Operations<function> ope){
 	if(ope.getValue_2()==0){
-		cout<<"You can´t divide !!!"<<endl;
+	try{
+		throw ope.getValue_2();
+	}catch (float)
+	{
+    cout<<"division by zero error";
+	}	
 	}else
 	return ope.getValue_1()/ope.getValue_2();
 }
