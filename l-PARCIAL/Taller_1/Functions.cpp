@@ -11,7 +11,7 @@
 	ENUNCIADO:  SE DESEA SUMAR, RESTAR, MULTIPLICAR Y DIVIDIR DOS NUMEROS UTILIZANDO TEMPLATES, BASADOS EN CLASES.				
 				
 	FECHA DE CREACION:        19-05-21 
-	FECHA DE MODIFICACION:    -------*/
+	FECHA DE MODIFICACION:    20-05-21*/
 	
 	
 //CALL TO CLASS FUNCTIONS	
@@ -41,7 +41,7 @@ function Functions <function>::divide(Operations<function> ope){
 		throw ope.getValue_2();
 	}catch (float)
 	{
-    cout<<"division by zero error";
+    cout<<"! DIVISION BY ZERO ERROR !"<<endl;
 	}	
 	}else
 	return ope.getValue_1()/ope.getValue_2();
