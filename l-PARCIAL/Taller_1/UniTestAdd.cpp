@@ -12,7 +12,7 @@
 				
 	CREATION DATE:        19-05-21 	
 	MODIFICATION DATE:    -------*/
-
+	
 #include <iostream>
 
 using namespace std;
@@ -24,8 +24,8 @@ class Operations{
 	public:
 		Operations(float, float);
 		
-		float multiplication(float a,float b){
-			return a*b;
+		float add(float a,float b){
+			return a+b;
 		};					
 };
 
@@ -42,7 +42,12 @@ int main(){
 	cin>>b;
 	
 	Operations ope = Operations(a,b);
-	cout<<"MULTIPLICATION = "<<ope.multiplication(a,b);
+	cout<<"ADD = "<<ope.add(a,b);
 };
+
+
+
+
+
 
 
