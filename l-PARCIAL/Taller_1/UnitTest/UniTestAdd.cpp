@@ -42,13 +42,15 @@ Operations::Operations(float a_1, float b_2){
 //MAIN
 int main(){
 	float a,b;
-	cout<<"Please, enter your number: ";
+	cout<<"****************************"<<endl;
+	cout<<"Please, enter your number: "<<endl;
 	cin>>a;
-	cout<<"Please, enter your number: ";
+	cout<<"Please, enter your number: "<<endl;
 	cin>>b;
 	
 //CALL OF METHODS
 	Operations ope = Operations(a,b);
+	cout<<"****************************"<<endl;
 	cout<<"ADD = "<<ope.add(a,b);
 };
 
