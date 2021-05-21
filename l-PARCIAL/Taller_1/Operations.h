@@ -12,18 +12,21 @@
 				
 	CREATION DATE:        19-05-21 	
 	MODIFICATION DATE:    -------*/
-
+	
+//TEMPLATE DECLARATIONS
 template <typename data>
 
+//CLASS DECLARATION
 class Operations{
 	
+//ATTRIBUTES DECLARATION
 	private:
 		data value_1;
 		data value_2;
 		
+//ESTRUCTURE 	
 	public:		
 		Operations();		
-	
 	void setValue_1(data);
     void setValue_2(data);
 	data getValue_1();

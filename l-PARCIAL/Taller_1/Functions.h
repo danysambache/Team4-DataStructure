@@ -13,15 +13,20 @@
 	CREATION DATE:        19-05-21 	
 	MODIFICATION DATE:    -------*/
 	
+//CALL OF CLASS
 #include"Operations.cpp"
 
+//TEMPLATES DECLARATION
 template<typename function>
 
+//CLASS CREATION
 class Functions{
 	
+//ATTRIBUTES
 	private:
 		Operations<function> ope;
 		
+//METHODS DECLARATION
 	public:			
 		function add(Operations<function>);
 		function subtract(Operations<function>);
