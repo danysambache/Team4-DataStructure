@@ -28,12 +28,32 @@ class Operations{
 	public:		
 		Operations();		
 
+		/**
+		* @brief to the operation to add two numbers 
+		*
+		* @param 
+		*/
 		void setValue_1(data);
 
+		/**
+		* @brief to the operation to subtract two numbers
+		*
+		* @param 
+		*/
     	void setValue_2(data);
 
+		/**
+		* @brief to the operation to multiply two numbers 
+		*
+		* @param multiply of two numbers
+		*/
 		data getValue_1();
 
+		/**
+		* @brief to the operation to divide two numbers 
+		*
+		* @param divide of two numbers
+		*/
     	data getValue_2();	
-    
+    	
 };
