@@ -12,16 +12,20 @@
 				
 	CREATION DATE:        19-05-21 	
 	MODIFICATION DATE:    -------*/
-	
+
+
+//CALL TO CLASS FUNCTIONS
 #include"Operations.h"
+//LIBRARY STATEMENT	
 #include<iostream>
 
 using namespace std;
 
+//TEMPLATE DECLARATION
 template <typename data>
 Operations<data>::Operations(){	
 }
-
+//GETTERS AND SETTERS DECLARATION
 template <typename data>
 void Operations<data>::setValue_1(data val_1){
 	value_1=val_1;

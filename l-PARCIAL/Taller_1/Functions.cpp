@@ -13,11 +13,15 @@
 	FECHA DE CREACION:        19-05-21 
 	FECHA DE MODIFICACION:    -------*/
 	
+	
+//CALL TO CLASS FUNCTIONS	
 #include"Functions.h"
+//LIBRARY STATEMENT	
 #include<iostream>
 
 using namespace std;
 
+//USE OF METHODS
 template <typename function>
 function Functions <function>::add(Operations<function> ope){
 	return ope.getValue_1()+ope.getValue_2();
