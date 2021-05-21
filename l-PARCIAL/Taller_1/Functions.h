@@ -28,9 +28,29 @@ class Functions{
 		
 //METHODS DECLARATION
 	public:			
+		/**
+		* @brief to the funcion to add two numbers 
+		*
+		* @return sum of two numbers
+		*/
 		function add(Operations<function>);
+		/**
+		* @brief to the funcion to subtract two numbers 
+		*
+		* @return subtract of two numbers
+		*/
 		function subtract(Operations<function>);
+		/**
+		* @brief to the funcion to multiply two numbers 
+		*
+		* @return multiply of two numbers
+		*/
 		function multiply(Operations<function>);
+		/**
+		* @brief to the funcion to divide two numbers 
+		*
+		* @return divide of two numbers
+		*/
 		function divide(Operations<function>);
 	
 };

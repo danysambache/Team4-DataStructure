@@ -27,9 +27,13 @@ class Operations{
 //ESTRUCTURE 	
 	public:		
 		Operations();		
-	void setValue_1(data);
-    void setValue_2(data);
-	data getValue_1();
-    data getValue_2();	
+
+		void setValue_1(data);
+
+    	void setValue_2(data);
+
+		data getValue_1();
+
+    	data getValue_2();	
     
 };
