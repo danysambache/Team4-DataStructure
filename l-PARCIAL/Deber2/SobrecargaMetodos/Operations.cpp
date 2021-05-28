@@ -28,8 +28,7 @@ Operations::Operations(Data data_D)
  * @brief Construct a new Operations:: Operations object
  * 
  */
-Operations::Operations(){
-	
+Operations::Operations(){	
 }
 /**
  * @brief Destroy the Operations:: Operations object
@@ -71,4 +70,34 @@ int Operations::add(int val_1,int val_2){
  */
 int Operations::add(int val_1,float val_2,int val_3,float val_4){
 	return val_1+(int)val_2+val_3+(int)val_4;
+}
+/**
+ * @brief This function subtract one number
+ * 
+ * @param data 
+ * @return int 
+ */
+int Operations::subtract(int data){
+   return data-20;
+}
+/**
+ * @brief This function subtract two numbers
+ * 
+ * @param val_1 
+ * @param val_2 
+ * @return float 
+ */
+float Operations::subtract(int val_1,float val_2){
+   return float(val_1)-val_2;
+}
+/**
+ * @brief This function subtract three numbers
+ * 
+ * @param value_1 
+ * @param value_2 
+ * @param value_3 
+ * @return float 
+ */
+float Operations::subtract(float value_1,int value_2,float value_3){
+	return value_1-float(value_2)-value_3;
 }
