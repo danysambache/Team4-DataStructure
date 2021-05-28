@@ -141,3 +141,56 @@ template<typename H>
  H Operations<H>::operator =(Data <H> info){	
  	return((info.getData()*info.getValue())/2);
  }
+ /**
+  * @brief This function returns the mcm of two numbers
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+ template<typename H>
+ H Operations<H>::operator /=(Data <H> info){
+ 	long int num1=info.getData();
+ 	long int num2=info.getValue();
+ 	long int a,b,res,mcm;
+ 	if(num1>num2){
+		a=num1;
+		b=num2;
+	}else{
+		a=num2;
+		b=num1;
+	}
+	do{
+		res=b;
+		b=a%b;
+		a=res;
+	}while(b!=0);
+ 	mcm=num1*num2/res;
+ 	return (mcm);
+ }
+ /**
+  * @brief This function returns the area of ​​the circle
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+ template <typename H>
+ H Operations<H>::operator *=(Data <H> info){
+ 	long radio=info.getData();
+ 	long double pi=3.14151617;
+ 	return (pi*pow(radio,2));
+ }
+ /**
+  * @brief This function returns the area of ​​the triangle
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+ template <typename H>
+ H Operations<H>::operator +=(Data <H> info){
+ 	long int base=info.getData();
+ 	long int alt=info.getValue();
+ 	return ((base*alt)/2);
+ }
