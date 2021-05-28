@@ -108,3 +108,36 @@ H Operations<H>::operator |(Data <H> info){
 	}
  	return(answer);
  }
+ /**
+ * @brief This function obtains the Pythagorean theorem
+ * 
+ * @tparam H 
+ * @param info 
+ * @return H 
+ */
+ template<typename H>
+ H Operations<H>::operator <(Data <H> info){
+ 	return (pow((info.getData()*info.getData())+(info.getValue()*info.getValue()),(0.5)));
+ }
+ /**
+  * @brief This function returns the square root of a number
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+template<typename H>
+ H Operations<H>::operator >(Data <H> info){
+ 	return(pow(info.getData(),0.5));
+ }
+ /**
+  * @brief This function returns the area of ​​the rhombus
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+ template<typename H>
+ H Operations<H>::operator =(Data <H> info){	
+ 	return((info.getData()*info.getValue())/2);
+ }
