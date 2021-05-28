@@ -131,3 +131,69 @@ float Operations::multiply(int value_1,float value_2){
 float Operations::multiply(float value_1,int value_2,float value_3){
 	return value_1*float(value_2)*value_3;
 }
+/**
+ * @brief This function calculates the greater of two numbers
+ * 
+ * @param val_1 
+ * @param val_2 
+ * @return int 
+ */
+int Operations::higher(int val_1, int val_2){
+	int temporary=0;
+	int vector[2]={val_1,val_2};
+	for (int i = 0;i < 2; i++){
+		for (int j = 0; j< 2-1; j++){
+			if (vector[j] < vector[j+1]){ 
+			temporary = vector[j]; 
+			vector[j] = vector[j+1]; 
+			vector[j+1] = temporary;
+			}
+		}
+	}
+	return vector[0];
+}
+/**
+ * @brief this function calculates the greater of three numbers
+ * 
+ * @param val_1 
+ * @param val_2 
+ * @param val_3 
+ * @return int 
+ */
+int Operations::higher(int val_1, int val_2, int val_3){
+	int temporary=0;
+	int vector[3]={val_1,val_2,val_3};
+	for (int i = 0;i < 3; i++){
+		for (int j = 0; j< 3-1; j++){
+			if (vector[j] < vector[j+1]){
+			temporary = vector[j]; 
+			vector[j] = vector[j+1]; 
+			vector[j+1] = temporary;
+			}
+		}
+	}
+	return vector[0];
+}
+/**
+ * @brief this function calculates the greater of four numbers
+ * 
+ * @param val_1 
+ * @param val_2 
+ * @param val_3 
+ * @param val_4 
+ * @return int 
+ */
+int Operations::higher(int val_1, int val_2, int val_3, int val_4){
+	int temporary=0;
+	int vector[4]={val_1,val_2,val_3,val_4};
+	for (int i = 0;i < 4; i++){
+		for (int j = 0; j< 4-1; j++){
+			if (vector[j] < vector[j+1]){
+			temporary= vector[j]; 
+			vector[j] = vector[j+1]; 
+			vector[j+1] = temporary;
+			}
+		}
+	}
+	return vector[0];
+}
