@@ -194,3 +194,42 @@ template<typename H>
  	long int alt=info.getValue();
  	return ((base*alt)/2);
  }
+ /**
+  * @brief This function returns the sin function of a number
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+ template <typename H>
+ H Operations<H>::operator -=(Data <H> info){
+ 	return (sin(info.getData()));
+ }
+ /**
+  * @brief This function returns the sum of the squares of a number
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+  template <typename H>
+ H Operations<H>::operator ^=(Data <H> info){
+	long int add=0,squart;
+	long int numb=info.getData();
+	for(int i=1;i<=numb;i++){
+		squart=i*i;
+		add+=squart;
+	}
+	return (add);
+ }
+ /**
+  * @brief This function performs the conversion from degrees Celsius to Fahrenheit
+  * 
+  * @tparam H 
+  * @param info 
+  * @return H 
+  */
+  template <typename H>
+ H Operations<H>::operator |=(Data <H> info){
+ 	return((info.getData()*1.8)+32);
+ }
