@@ -1,0 +1,4 @@
+Para observar el reporte de c-docs, clases, etc:
+1.  Ingresar a la carpeta Report
+2. Ingresar a la carpeta HTML
+3.  Seleccionar el archivo index.html
