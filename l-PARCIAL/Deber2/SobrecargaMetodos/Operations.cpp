@@ -101,3 +101,33 @@ float Operations::subtract(int val_1,float val_2){
 float Operations::subtract(float value_1,int value_2,float value_3){
 	return value_1-float(value_2)-value_3;
 }
+/**
+ * @brief This function multiply one number
+ * 
+ * @param value_1 
+ * @return int 
+ */
+int Operations::multiply(int value_1){
+   return value_1*5;
+}
+/**
+ * @brief This function multiply two numbers
+ * 
+ * @param value_1 
+ * @param value_2 
+ * @return float 
+ */
+float Operations::multiply(int value_1,float value_2){
+   return float(value_1)*value_2;
+}
+/**
+ * @brief This function multiply three numbers
+ * 
+ * @param value_1 
+ * @param value_2 
+ * @param value_3 
+ * @return float 
+ */
+float Operations::multiply(float value_1,int value_2,float value_3){
+	return value_1*float(value_2)*value_3;
+}
