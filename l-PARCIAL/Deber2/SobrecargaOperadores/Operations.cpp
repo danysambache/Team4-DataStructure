@@ -58,3 +58,53 @@ template<typename H>
 H Operations<H>::operator *(Data <H> info){
 	return(info.getData()*(info.getValue()));
 }
+/**
+ * @brief This function obtains the factorial of a number
+ * 
+ * @tparam H 
+ * @param info 
+ * @return H 
+ */
+template<typename H>
+H Operations<H>::operator |(Data <H> info){
+	long int Resultado=1;
+    long int Factorial=info.getValue();
+    while(Factorial > 1) {
+       Resultado *= Factorial;
+       Factorial--;
+    };
+    return Resultado;
+}
+/**
+ * @brief This function obtains the percentage of the sum of two numbers
+ * 
+ * @tparam H 
+ * @param info 
+ * @return H 
+ */
+ template<typename H>
+ H Operations<H>::operator %(Data <H> info){
+ 	return(((info.getData()*10)/100)+((H(info.getValue()))*10)/100);
+ }
+/**
+ * @brief This function gets the power of two numbers
+ * 
+ * @tparam H 
+ * @param info 
+ * @return H 
+ */
+ template<typename H>
+ H Operations<H>::operator ^(Data <H> info){
+ 	long int answer=0, x=1;
+ 	long int base=info.getData();
+ 	long int expon=info.getValue();
+ 	while(x<expon){
+ 		if(answer<base){
+ 			answer = base*base;
+		}else{
+			answer = answer*base;
+		}
+		x++;
+	}
+ 	return(answer);
+ }
