@@ -74,19 +74,7 @@ void Persona::setCedula(std::string newCedula)
 {
    cedula = newCedula;
 }
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::Persona(std::string nombre, std::string apellido, std::string cedula)
-// Purpose:    Implementation of Persona::Persona()
-// Parameters:
-// - nombre
-// - apellido
-// - cedula
-// Return:     
-////////////////////////////////////////////////////////////////////////
-Persona::Persona(std::string nombre, std::string apellido, std::string cedula)
-{
-   // TODO : implement
-}
+
 ////////////////////////////////////////////////////////////////////////
 // Name:       Persona::~Persona()
 // Purpose:    Implementation of Persona::~Persona()
@@ -95,4 +83,10 @@ Persona::Persona(std::string nombre, std::string apellido, std::string cedula)
 Persona::~Persona()
 {
    // TODO : implement
+}
+Fecha *Persona::getFecha(){
+	return fecha;
+}
+void Persona::setFecha(Fecha* _fecha){
+	this->fecha=_fecha;
 }

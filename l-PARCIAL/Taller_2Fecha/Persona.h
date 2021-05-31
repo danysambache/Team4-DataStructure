@@ -25,7 +25,9 @@ public:
    void setNombre(std::string newNombre);
    std::string getCedula(void);
    void setCedula(std::string newCedula);
-   Persona(std::string nombre, std::string apellido, std::string cedula);
+   Fecha* getFecha();
+   void setFecha(Fecha*);
+   Persona()=default;
    ~Persona();
    Fecha* fecha;
 protected:
