@@ -1,0 +1,42 @@
+\hypertarget{class_persona}{}\doxysection{Persona Class Reference}
+\label{class_persona}\index{Persona@{Persona}}
+
+
+Collaboration diagram for Persona\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_persona_a53525215b2095be68d36f69e2f7a2103}\label{class_persona_a53525215b2095be68d36f69e2f7a2103}} 
+std\+::string {\bfseries get\+Apellido} (void)
+\item 
+\mbox{\Hypertarget{class_persona_a7a6550f0902d889ea95d713aafed9dd1}\label{class_persona_a7a6550f0902d889ea95d713aafed9dd1}} 
+void {\bfseries set\+Apellido} (std\+::string new\+Apellido)
+\item 
+\mbox{\Hypertarget{class_persona_a187ba880dc057e16c0e6d7263c16b412}\label{class_persona_a187ba880dc057e16c0e6d7263c16b412}} 
+std\+::string {\bfseries get\+Nombre} (void)
+\item 
+\mbox{\Hypertarget{class_persona_ab4b331332fcf898454886d4ce2afbc6d}\label{class_persona_ab4b331332fcf898454886d4ce2afbc6d}} 
+void {\bfseries set\+Nombre} (std\+::string new\+Nombre)
+\item 
+\mbox{\Hypertarget{class_persona_a0259a425c8eb815a4b092f079bb9563b}\label{class_persona_a0259a425c8eb815a4b092f079bb9563b}} 
+std\+::string {\bfseries get\+Cedula} (void)
+\item 
+\mbox{\Hypertarget{class_persona_a648bee596e613fafe572233fcf056629}\label{class_persona_a648bee596e613fafe572233fcf056629}} 
+void {\bfseries set\+Cedula} (std\+::string new\+Cedula)
+\item 
+\mbox{\Hypertarget{class_persona_a56aade6d19f58569a9d73560a2bf68ba}\label{class_persona_a56aade6d19f58569a9d73560a2bf68ba}} 
+{\bfseries Persona} (std\+::string nombre, std\+::string apellido, std\+::string cedula)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_persona_a267f3a930531b5a9dfe2368c6d395098}\label{class_persona_a267f3a930531b5a9dfe2368c6d395098}} 
+\mbox{\hyperlink{class_fecha}{Fecha}} $\ast$ {\bfseries fecha}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Persona.\+h\item 
+Persona.\+cpp\end{DoxyCompactItemize}
