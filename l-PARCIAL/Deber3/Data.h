@@ -8,8 +8,8 @@
 				JIMMY SIMBANA - jasimbana14@espe.edu.ec
 				DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
 	
-	STATEMENT: Requires overloading operators, using templates and classes				
-				
+	STATEMENT: Generate an array of random numbers, using classes and templates 
+	
 	CREATION DATE:        28-05-21 	
 	MODIFICATION DATE:    30-05-21*/
 //#pragma once
