@@ -20,6 +20,6 @@ class Matriz
 	public:
    Matriz()=default;
    int* getMatriz();
-   void setMatriz(int matrix[][3]);
+   void setMatriz(int matrix[3][3]);
    Matriz(int _matriz[3][3]);
 };
