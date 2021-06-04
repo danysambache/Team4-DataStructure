@@ -1,17 +1,17 @@
 /*  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACI√ìN
-    INGENIER√çA DE SOFTWARE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACI”N
+    INGENIERÕA DE SOFTWARE
 
     AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
                 RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
                 ALEXANDER MAILA - jamaila@espe.edu.ec
-                JIMMY SIMBA√É‚ÄòA - jasimbana14@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
                 DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
 
-    STATEMENT: IMPLEMENTAR LA FUNCION MATRIZ A LA N-ESIMA MEDIANTE PUNTEROS
+    ENUNCIADO:  IMPLEMENTAR LA FUNCION MATRIZ A LA N-ESIMA MEDIANTE PUNTEROS
 
-    CREATION DATE:        02-06-21
-    MODIFICATION DATE:    03-06-21*/
+    FECHA DE CREACI”N:        02-06-21
+    FECHA DE MODIFICACI”N:    03-06-21*/
 #if !defined(__Multiplicacion_Matrices_Matrices_h)
 #define __Multiplicacion_Matrices_Matrices_h
 class Matrices

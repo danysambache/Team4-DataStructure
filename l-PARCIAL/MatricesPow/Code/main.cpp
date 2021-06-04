@@ -1,23 +1,26 @@
 /*  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACI√ìN
-    INGENIER√çA DE SOFTWARE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACI”N
+    INGENIERÕA DE SOFTWARE
 
     AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
                 RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
                 ALEXANDER MAILA - jamaila@espe.edu.ec
-                JIMMY SIMBA√É‚ÄòA - jasimbana14@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
                 DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
 
-    STATEMENT:  IMPLEMENTAR LA FUNCION MATRIZ A LA N-ESIMA MEDIANTE PUNTEROS
+    ENUNCIADO:  IMPLEMENTAR LA FUNCION MATRIZ A LA N-ESIMA MEDIANTE PUNTEROS
 
-    CREATION DATE:        02-06-21
-    MODIFICATION DATE:    03-06-21*/
+    FECHA DE CREACI”N:        02-06-21
+    FECHA DE MODIFICACI”N:    03-06-21*/
 #include <iostream>
 #include "Matrices.h"
 #include "Operaciones.h"
 #include <Math.h>
+#include <ctime>
+#include <cstdlib>
 using namespace std;
 int main(int argc, char** argv) {
+	srand(time(0));
 	int dim,n;
 	int **mat1, **mat2, **matr;
 	cout<<"****************************************"<<endl;
@@ -31,8 +34,8 @@ int main(int argc, char** argv) {
 	op.encerar(mat1, dim);
 	op.encerar(mat2, dim);
 	op.encerar(matr, dim);
-	cout<<"Ingrese datos Matriz 1: "<<endl;
 	op.ingresar(mat1, dim);
+	op.imprimir(mat1,dim);
 	cout<<endl;
 	cout<<"Ingrese la potencia para la matriz: ";
 	cin>>n;

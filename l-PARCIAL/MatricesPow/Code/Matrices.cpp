@@ -1,76 +1,65 @@
-/***********************************************************************
- * Module:  Matrices.cpp
- * Author:  Danny
- * Modified: 02 June 2021 20:08:00
- * Purpose: Implementation of the class Matrices
- ***********************************************************************/
+/*  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN
+    INGENIERÍA DE SOFTWARE
 
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO:  IMPLEMENTAR LA FUNCION MATRIZ A LA N-ESIMA MEDIANTE PUNTEROS
+
+    FECHA DE CREACIÓN:        02-06-21
+    FECHA DE MODIFICACIÓN:    03-06-21*/
 #include "Matrices.h"
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::getMatriz()
-// Purpose:    Implementation of Matrices::getMatriz()
-// Return:     int
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Devuelve la matriz
+ * 
+ * @return int** 
+ */
 int **Matrices::getMatriz(void)
 {
    return matriz;
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::setMatriz(int newMatriz)
-// Purpose:    Implementation of Matrices::setMatriz()
-// Parameters:
-// - newMatriz
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Reescribe la matriz
+ * 
+ * @param newMatriz 
+ */
 void Matrices::setMatriz(int **newMatriz)
 {
    matriz = newMatriz;
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::getDim()
-// Purpose:    Implementation of Matrices::getDim()
-// Return:     int
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Devuelve la dimension
+ * 
+ * @return int 
+ */
 int Matrices::getDim(void)
 {
    return dim;
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::setDim(int newDim)
-// Purpose:    Implementation of Matrices::setDim()
-// Parameters:
-// - newDim
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Reescribe la dimension
+ * 
+ * @param newDim 
+ */
 void Matrices::setDim(int newDim)
 {
    dim = newDim;
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::Matrices()
-// Purpose:    Implementation of Matrices::Matrices()
-// Return:     
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Constructor
+ * 
+ */
 **Matrices::Matrices()
 {
 }
-
-////////////////////////////////////////////////////////////////////////
-// Name:       Matrices::~Matrices()
-// Purpose:    Implementation of Matrices::~Matrices()
-// Return:     
-////////////////////////////////////////////////////////////////////////
-
+/**
+ * @brief Desctructor:: Matrices object
+ * 
+ */
 Matrices::~Matrices()
 {
    // TODO : implement
