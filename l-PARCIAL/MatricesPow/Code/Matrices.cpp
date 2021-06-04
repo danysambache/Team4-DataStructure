@@ -1,0 +1,77 @@
+/***********************************************************************
+ * Module:  Matrices.cpp
+ * Author:  Danny
+ * Modified: 02 June 2021 20:08:00
+ * Purpose: Implementation of the class Matrices
+ ***********************************************************************/
+
+#include "Matrices.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::getMatriz()
+// Purpose:    Implementation of Matrices::getMatriz()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int **Matrices::getMatriz(void)
+{
+   return matriz;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::setMatriz(int newMatriz)
+// Purpose:    Implementation of Matrices::setMatriz()
+// Parameters:
+// - newMatriz
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Matrices::setMatriz(int **newMatriz)
+{
+   matriz = newMatriz;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::getDim()
+// Purpose:    Implementation of Matrices::getDim()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Matrices::getDim(void)
+{
+   return dim;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::setDim(int newDim)
+// Purpose:    Implementation of Matrices::setDim()
+// Parameters:
+// - newDim
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Matrices::setDim(int newDim)
+{
+   dim = newDim;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::Matrices()
+// Purpose:    Implementation of Matrices::Matrices()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+**Matrices::Matrices()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Matrices::~Matrices()
+// Purpose:    Implementation of Matrices::~Matrices()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Matrices::~Matrices()
+{
+   // TODO : implement
+}
