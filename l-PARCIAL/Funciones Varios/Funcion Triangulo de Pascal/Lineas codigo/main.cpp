@@ -8,11 +8,10 @@
                 JIMMY SIMBANA - jasimbana14@espe.edu.ec
                 DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
 
-    ENUNCIADO: REALIZAR UN PROGRAMA QUE PERMITA MULTIPLICAR DOS MATRICES, MEDIANTE EL MANEJO
-    DE MEMORIA DINÃMICA. UTILIZANDO CLASES.
+    ENUNCIADO: Funcion TRIANGULO DE PASCAL.
 
-    FECHA DE CREACION:        02-06-21
-    FECHA DE MODIFICACION:    02-06-21*/
+    FECHA DE CREACION:        04-06-21
+    FECHA DE MODIFICACION:    06-06-21*/
 #include <iostream>
 #include <stdlib.h>
 #include <conio.h>
