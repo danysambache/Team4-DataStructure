@@ -25,5 +25,10 @@ int main(){
 	cout.setf(ios::fixed);
     cout.precision(9);
 	cout<<"Resultado Csc(x): "<<res<<endl;
+	//Sec Jimmy Simbaña
+	res=op.calc_sec(valAprox,valor);
+	cout.setf(ios::fixed);
+    cout.precision(9);
+	cout<<"Resultado Sec(x): "<<res<<endl;
 	return 0;
 }
