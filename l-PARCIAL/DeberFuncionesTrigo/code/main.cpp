@@ -30,5 +30,10 @@ int main(){
 	cout.setf(ios::fixed);
     cout.precision(9);
 	cout<<"Resultado Sec(x): "<<res<<endl;
+	//Tan Alexander Maila
+	res=op.calc_tan(valAprox,valor);
+	cout.setf(ios::fixed);
+    cout.precision(9);
+	cout<<"Resultado Tang(x): "<<res<<endl;
 	return 0;
 }
