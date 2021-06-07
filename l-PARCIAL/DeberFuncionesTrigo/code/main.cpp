@@ -15,6 +15,11 @@ int main(){
 	cout.setf(ios::fixed);
     cout.precision(9);
 	cout<<"Resultado Cos(x): "<<res<<endl;
+	//Sen Ricardo Grijalva
+	res=op.calc_sen(valAprox,valor);
+	cout.setf(ios::fixed);
+    cout.precision(9);
+    cout<<"Resultado Sen(x): "<<res<<endl;
 	//Csc Danny Sambache
 	res=op.calc_csc(valAprox,valor);
 	cout.setf(ios::fixed);

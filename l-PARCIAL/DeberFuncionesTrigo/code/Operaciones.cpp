@@ -24,6 +24,26 @@ double Operaciones::calc_cos(int numAprox,int valor)
     }
     return res;
 }
+double Operaciones::calc_sen(int numAprox,int valor)
+{
+	int i;
+	double res;
+	int prod=-1;
+	double *coeficiente=segmentar(double(numAprox)+1);      
+    for (i = 1; i <= numAprox; i+=2) {      
+        prod *= -1;     
+        *(coeficiente+i) = prod * (1/factorial(i));
+    }
+    for (i = 0; i < numAprox; i+=2) {       
+ 
+        *(coeficiente+i) = 0;
+    }
+    for (i = numAprox; i > 0; i--) {
+        res = *(coeficiente+i) * valor + *(coeficiente+(i-1));
+        *(coeficiente+(i-1))= res;
+    }
+    return res;
+}
 double Operaciones::calc_csc(int numAprox,int valor)
 {
 	int i;
