@@ -76,7 +76,7 @@ void Operaciones::imprimir(int **matriz, int dim){
     int i,j;
     for(i=0;i<dim;i++){
         for(j=0;j<dim;j++){
-        	printf("|");
+        	printf("  |");
             printf("%d",*(*(matriz+i)+j));
             printf("|");
         }

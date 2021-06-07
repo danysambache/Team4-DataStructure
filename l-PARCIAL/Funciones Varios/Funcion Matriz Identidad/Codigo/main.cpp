@@ -25,6 +25,7 @@ int main()
 	Matriz m1;
     int dim;
     int **mat1;
+    printf("\n ~ Matriz Identidad ~");
     printf("\nIngrese la dimension :");
     scanf("%d",&dim);
     Operaciones op;
