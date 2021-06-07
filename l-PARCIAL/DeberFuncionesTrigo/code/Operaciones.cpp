@@ -1,9 +1,21 @@
 #include "Operaciones.h"
 #include <stdlib.h>
 #include <conio.h>
+
+/**
+ * @brief Construct a new Operaciones:: Operaciones object
+ * 
+ */
  Operaciones::Operaciones(void)
 {
 }
+/**
+ * @brief Calcula Coseno
+ * 
+ * @param numAprox 
+ * @param valor 
+ * @return double 
+ */
 double Operaciones::calc_cos(int numAprox,int valor)
 {
 	int i;
@@ -24,6 +36,13 @@ double Operaciones::calc_cos(int numAprox,int valor)
     }
     return res;
 }
+/**
+ * @brief Calcula Seno
+ * 
+ * @param numAprox 
+ * @param valor 
+ * @return double 
+ */
 double Operaciones::calc_sen(int numAprox,int valor)
 {
 	int i;
@@ -44,6 +63,13 @@ double Operaciones::calc_sen(int numAprox,int valor)
     }
     return res;
 }
+/**
+ * @brief Calcula Cosecante
+ * 
+ * @param numAprox 
+ * @param valor 
+ * @return double 
+ */
 double Operaciones::calc_csc(int numAprox,int valor)
 {
 	int i;
@@ -64,6 +90,13 @@ double Operaciones::calc_csc(int numAprox,int valor)
     }
     return 1/res;
 }
+/**
+ * @brief Calcula Secante
+ * 
+ * @param numAprox 
+ * @param valor 
+ * @return double 
+ */
 double Operaciones::calc_sec(int numAprox,int valor)
 {
 	int i;
@@ -84,6 +117,13 @@ double Operaciones::calc_sec(int numAprox,int valor)
     }
     return 1/res;
 }
+/**
+ * @brief Calcula Tangente
+ * 
+ * @param numAprox 
+ * @param valor 
+ * @return double 
+ */
 double Operaciones::calc_tan(int numAprox, int valor){
 	int i;
 	double resSen,aux1;
@@ -121,6 +161,12 @@ double Operaciones::calc_tan(int numAprox, int valor){
     aux2=resCos;
     return aux1/aux2;
 }
+/**
+ * @brief Segmenta espacio de memoria
+ * 
+ * @param dim 
+ * @return double* 
+ */
 double *Operaciones::segmentar(double dim){
 	double *vect;
 	int j;
@@ -130,6 +176,12 @@ double *Operaciones::segmentar(double dim){
     }
      return vect;
 }
+/**
+ * @brief Calcula el factorial
+ * 
+ * @param n 
+ * @return double 
+ */
 double Operaciones::factorial(int n)
 {
    	return (n<1)?1:n*factorial(n-1);
