@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1623219157 source:c:\users\usuario\desktop\espes1mayo_septiembre\estructurasdedatos(3688)\deberes\cubomagico\variantecubo\cubomagico\main.cpp
+	<iostream>
+	"CuadroMagico.h"
+	"Operaciones.h"
+
+1623210064 source:c:\users\usuario\desktop\espes1mayo_septiembre\estructurasdedatos(3688)\deberes\cubomagico\variantecubo\cubomagico\src\cuadromagico.cpp
+	"CuadroMagico.h"
+	<iostream>
+
+1623210217 c:\users\usuario\desktop\espes1mayo_septiembre\estructurasdedatos(3688)\deberes\cubomagico\variantecubo\cubomagico\include\cuadromagico.h
+
+1623218677 source:c:\users\usuario\desktop\espes1mayo_septiembre\estructurasdedatos(3688)\deberes\cubomagico\variantecubo\cubomagico\src\operaciones.cpp
+	"Operaciones.h"
+
+1623211490 c:\users\usuario\desktop\espes1mayo_septiembre\estructurasdedatos(3688)\deberes\cubomagico\variantecubo\cubomagico\include\operaciones.h
+	<iostream>
+	<queue>
+	"CuadroMagico.h"
+
