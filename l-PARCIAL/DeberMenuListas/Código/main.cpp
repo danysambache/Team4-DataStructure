@@ -18,7 +18,7 @@ using namespace std;
 int main(int argc, char** argv) {
 	Lista list;
 	int select;
-	char** lista=(char*)calloc(7, sizeof(char));
+	char** lista=(char**)calloc(7, sizeof(char *));
 	*(lista+0)="Insertar por la Cabeza";
 	*(lista+1)="Insertar por la Cola";
 	*(lista+2)="Imprimir Lista";

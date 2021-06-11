@@ -13,7 +13,6 @@
     FECHA DE CREACION:        09-06-21
     FECHA DE MODIFICACION:    10-06-21*/
 #include "Menu.h"
-#include "Operaciones.h"
 /**
  * @brief Asigna un espacio de coordenadas en X y Y
  * 
@@ -92,7 +91,6 @@ int Menu::genMenu(string titulo, char **opcion, int numOpt){
  */
 void Menu::llamar_menu(int sel,Lista &list){
 	int num,opcion;
-	Operaciones op;
 	char** opc_sino=(char**)calloc(2, sizeof(char*));
 	*(opc_sino+0)="SI";
 	*(opc_sino+1)="NO";
