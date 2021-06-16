@@ -50,17 +50,21 @@
          * @param val 
          */
 		void Lista::insertarFinal(int val){
-			Nodo *nuevo=new Nodo(val,NULL);
+			Nodo *aux;
+			Nodo *aux1;
+			Nodo *aux2=new Nodo(val,NULL);
+			aux=this->primero;
 			if(ListaVacia()){
-				this->primero=nuevo;	
+				this->primero=aux;	
 			}else{
-				Nodo *puntero=this->primero;
-				while(puntero->getNodo()){
-					puntero=puntero->getNodo();	
+					while (aux != NULL)
+        			{
+		            aux1 = aux;
+		            aux = aux->getNodo();
+        			}
+        			aux1->setNodo(aux2);
 				}
-				puntero->setNodo(nuevo);
 			}
-		}
         /**
          * @brief Elimina un elemento especifico
          * 
