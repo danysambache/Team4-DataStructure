@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/ListasDobles.dir/includes_CXX.rsp -g -o CMakeFiles/ListasDobles.dir/main.cpp.obj -c C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/main.cpp",
+  "file": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/main.cpp"
+},
+{
+  "directory": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/ListasDobles.dir/includes_CXX.rsp -g -o CMakeFiles/ListasDobles.dir/Nodo.cpp.obj -c C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/Nodo.cpp",
+  "file": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/Nodo.cpp"
+},
+{
+  "directory": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/ListasDobles.dir/includes_CXX.rsp -g -o CMakeFiles/ListasDobles.dir/lista_doble_enlazada.cpp.obj -c C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/lista_doble_enlazada.cpp",
+  "file": "C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/lista_doble_enlazada.cpp"
+}
+]

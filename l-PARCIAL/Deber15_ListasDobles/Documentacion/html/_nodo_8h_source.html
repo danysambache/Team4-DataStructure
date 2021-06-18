@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Listas Dobles: Fichero Fuente C:/Users/danysamba/Desktop/Data-Structure/Team4-DataStructure-3688/l-PARCIAL/Deber15_ListasDobles/ProyectoDobleLista/Nodo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="datos.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Listas Dobles
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_dd2cf22aa0d5310141d82ffdc76f75c1.html">ProyectoDobleLista</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Nodo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="class_nodo.html">    2</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_nodo.html">Nodo</a>{</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;        <a class="code" href="class_nodo.html#ae6c62f736993a34f77779a2806a8efe3">Nodo</a> (<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <a class="code" href="class_nodo.html">Nodo</a> *<a class="code" href="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb">getSiguiente</a>();</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_nodo.html#aff63c6559debcfd67f152d5e802243cd">setSiguiente</a>(<a class="code" href="class_nodo.html">Nodo</a> *);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="class_nodo.html">Nodo</a> *<a class="code" href="class_nodo.html#a8365114416f931403a7e029c07be6677">getAnterior</a>();</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35">setAnterior</a>(<a class="code" href="class_nodo.html">Nodo</a> *);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_nodo.html#a7f76df0197ad7726656760ba53fce9b5">getValor</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_nodo.html#a2510a7eab19095fae260cd54e94cc105">setValor</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">int</span> valor;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="class_nodo.html">Nodo</a> *siguiente=NULL;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="class_nodo.html">Nodo</a> *anterior=NULL;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
+<div class="ttc" id="aclass_nodo_html"><div class="ttname"><a href="class_nodo.html">Nodo</a></div><div class="ttdef"><b>Definition:</b> Nodo.h:2</div></div>
+<div class="ttc" id="aclass_nodo_html_a1c1e1cd8fc4f38f64c5413dce321b7bb"><div class="ttname"><a href="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb">Nodo::getSiguiente</a></div><div class="ttdeci">Nodo * getSiguiente()</div><div class="ttdoc">Retorna el atributo Nodo anterior.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:32</div></div>
+<div class="ttc" id="aclass_nodo_html_a2510a7eab19095fae260cd54e94cc105"><div class="ttname"><a href="class_nodo.html#a2510a7eab19095fae260cd54e94cc105">Nodo::setValor</a></div><div class="ttdeci">void setValor(int)</div><div class="ttdoc">Reescribe el valor.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:56</div></div>
+<div class="ttc" id="aclass_nodo_html_a7f76df0197ad7726656760ba53fce9b5"><div class="ttname"><a href="class_nodo.html#a7f76df0197ad7726656760ba53fce9b5">Nodo::getValor</a></div><div class="ttdeci">int getValor()</div><div class="ttdoc">Retorna el valor del atributo valor.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:48</div></div>
+<div class="ttc" id="aclass_nodo_html_a8365114416f931403a7e029c07be6677"><div class="ttname"><a href="class_nodo.html#a8365114416f931403a7e029c07be6677">Nodo::getAnterior</a></div><div class="ttdeci">Nodo * getAnterior()</div><div class="ttdoc">Retorna el atributo Nodo siguiente.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:16</div></div>
+<div class="ttc" id="aclass_nodo_html_a9585dc00a21b22c925735f3f66a98d35"><div class="ttname"><a href="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35">Nodo::setAnterior</a></div><div class="ttdeci">void setAnterior(Nodo *)</div><div class="ttdoc">Reescribe el Nodo anterior.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:24</div></div>
+<div class="ttc" id="aclass_nodo_html_ae6c62f736993a34f77779a2806a8efe3"><div class="ttname"><a href="class_nodo.html#ae6c62f736993a34f77779a2806a8efe3">Nodo::Nodo</a></div><div class="ttdeci">Nodo(int)</div><div class="ttdoc">Construct a new Nodo:: Nodo object.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:8</div></div>
+<div class="ttc" id="aclass_nodo_html_aff63c6559debcfd67f152d5e802243cd"><div class="ttname"><a href="class_nodo.html#aff63c6559debcfd67f152d5e802243cd">Nodo::setSiguiente</a></div><div class="ttdeci">void setSiguiente(Nodo *)</div><div class="ttdoc">Reescribe el Nodo siguiente.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:40</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
