@@ -1,3 +1,17 @@
+/*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACION
+    INGENIERIA DE SOFTWARE
+
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO: Generar una tabla de Amortización
+
+    FECHA DE CREACION:        15-06-21
+    FECHA DE MODIFICACION:    24-06-21*/
 #include "Lista.h"
     /**
      * @brief Comprueba si la lista esta vacia
@@ -75,6 +89,12 @@
 				delete aux_borrar;
 			}
 		}
+		/**
+		 * @brief Busca un valor en la lista
+		 * 
+		 * @param cedula 
+		 * @return Nodo* 
+		 */
 		Nodo *Lista::buscarNodo(string cedula){
 			Nodo *aux_borrar;
 			Nodo *anterior=NULL;
@@ -90,6 +110,13 @@
 				return aux_borrar;
 			}
 		}
+		/**
+		 * @brief Busca un valor en la lista
+		 * 
+		 * @param cedula 
+		 * @return true 
+		 * @return false 
+		 */
 		bool Lista::buscarBool(string cedula){
 			Nodo *aux_borrar;
 			Nodo *anterior=NULL;
@@ -105,6 +132,10 @@
 				return true;
 			}
 		}
+		/**
+		 * @brief Muestra elementos de lista
+		 * 
+		 */
 		void Lista::mostrar(){
 			Nodo *tmp=this->primero;
 			while(tmp){

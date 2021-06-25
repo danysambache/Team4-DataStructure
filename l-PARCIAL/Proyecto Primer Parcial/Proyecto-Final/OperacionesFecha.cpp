@@ -1,12 +1,38 @@
+/*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACION
+    INGENIERIA DE SOFTWARE
+
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO: Generar una tabla de Amortización
+
+    FECHA DE CREACION:        15-06-21
+    FECHA DE MODIFICACION:    24-06-21*/
 #include "OperacionesFecha.h"
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 using namespace std;
+/**
+ * @brief Construct a new Operaciones Fecha:: Operaciones Fecha object
+ * 
+ * @param _fecha 
+ */
 OperacionesFecha::OperacionesFecha(Fecha _fecha){
     this->fecha=_fecha;
 }
+/**
+ * @brief Valida fecha
+ * 
+ * @param fechaV 
+ * @return true 
+ * @return false 
+ */
 bool OperacionesFecha::validarFecha(Fecha fechaV){
     bool aux;
     if(fechaV.get_anio()>=1900 &&fechaV.get_anio()<=2100){
@@ -66,10 +92,23 @@ bool OperacionesFecha::validarFecha(Fecha fechaV){
     }
     return aux;
 }
-
+/**
+ * @brief Determina si es bisiesto
+ * 
+ * @param _year 
+ * @return true 
+ * @return false 
+ */
 bool OperacionesFecha::isBisiesto(int _year){
    return (_year % 4 == 0 && _year % 100 != 0 || _year % 400 == 0) ? true : false;
 }
+/**
+ * @brief Genera Fecha
+ * 
+ * @param fec 
+ * @param cuota 
+ * @return Fecha* 
+ */
 Fecha *OperacionesFecha::generarFecha(Fecha fec, int cuota){
     Fecha *fechas=new Fecha[cuota];
     int dia,mes,anio;
@@ -107,6 +146,12 @@ Fecha *OperacionesFecha::generarFecha(Fecha fec, int cuota){
     }
     return fechas;
 }
+/**
+ * @brief Valida dia laboral
+ * 
+ * @param fechaLab 
+ * @return Fecha 
+ */
 Fecha OperacionesFecha::validarDiaLaboral(Fecha fechaLab){
     int dia=fechaLab.get_dia();
     int mes=fechaLab.get_mes();
@@ -146,6 +191,12 @@ Fecha OperacionesFecha::validarDiaLaboral(Fecha fechaLab){
     Fecha fecha1(dia,mes,anio);
     return fecha1;
 }
+/**
+ * @brief Valida feriados
+ * 
+ * @param fechaFer 
+ * @return Fecha 
+ */
 Fecha OperacionesFecha::validarFeriado(Fecha fechaFer){
     int dia=fechaFer.get_dia();
     int mes=fechaFer.get_mes();
@@ -182,7 +233,12 @@ Fecha OperacionesFecha::validarFeriado(Fecha fechaFer){
     Fecha fecha1(dia,mes,anio);
     return fecha1;
 }
-
+/**
+ * @brief Valida Zeller
+ * 
+ * @param fechaZ 
+ * @return int 
+ */
 int OperacionesFecha::validarZeller(Fecha fechaZ){
     int a_aux=(14-fechaZ.get_mes())/12;
     int y_aux=fechaZ.get_anio()-a_aux;

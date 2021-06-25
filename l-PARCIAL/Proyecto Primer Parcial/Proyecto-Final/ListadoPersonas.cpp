@@ -1,6 +1,25 @@
+/*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACION
+    INGENIERIA DE SOFTWARE
+
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO: Generar una tabla de Amortización
+
+    FECHA DE CREACION:        15-06-21
+    FECHA DE MODIFICACION:    24-06-21*/
 #include "ListadoPersonas.h"
 #include<fstream>
 #include <sstream>
+/**
+ * @brief Agrega a un archivo
+ * 
+ * @param persona 
+ */
 void ListadoPersonas::agregarArchivo(Persona persona){
     ofstream archivo;
     archivo.open("Personas.txt",ios::app);
@@ -11,6 +30,11 @@ void ListadoPersonas::agregarArchivo(Persona persona){
     archivo<<persona.get_CI()<<"\n"<<persona.get_nombre()<<"\n"<<persona.get_apellido()<<"\n"<<persona.get_edad()<<"\n"<<persona.get_correo()<<"\n"<<persona.get_telefono()<<"\n"<<endl;
     archivo.close();
 }
+/**
+ * @brief Lee de un archivo
+ * 
+ * @return Lista 
+ */
 Lista ListadoPersonas::leerArchivo(){
     int i=0;
     ifstream archivo; 

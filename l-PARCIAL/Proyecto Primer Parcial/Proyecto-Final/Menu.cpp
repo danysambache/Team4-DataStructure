@@ -1,4 +1,24 @@
+/*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACION
+    INGENIERIA DE SOFTWARE
+
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO: Generar una tabla de Amortización
+
+    FECHA DE CREACION:        15-06-21
+    FECHA DE MODIFICACION:    24-06-21*/
 #include "Menu.h"
+/**
+ * @brief Ubica el texto en una posicion
+ * 
+ * @param x 
+ * @param y 
+ */
 void Menu::gotoxy(int x,int y){
 		HANDLE hcon;
 		hcon=GetStdHandle(STD_OUTPUT_HANDLE);
@@ -7,6 +27,14 @@ void Menu::gotoxy(int x,int y){
 		dwPos.Y=y;
 		SetConsoleCursorPosition(hcon,dwPos);
 }
+/**
+ * @brief Genera Menu
+ * 
+ * @param titulo 
+ * @param opcion 
+ * @param numOpt 
+ * @return int 
+ */
 int Menu::genMenu(string titulo, char **opcion, int numOpt){
 	int select=1,tecla;
 	bool bandera=true;
@@ -55,6 +83,11 @@ int Menu::genMenu(string titulo, char **opcion, int numOpt){
 	}while(bandera);
 	return select;
 }
+/**
+ * @brief Llama al menu
+ * 
+ * @param sel 
+ */
 void Menu::llamar_menu(int sel){
 	Lista list;
 	Fecha *fechas;

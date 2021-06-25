@@ -1,54 +1,22 @@
+/*UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+    DEPARTAMENTO DE CIENCIAS DE LA COMPUTACION
+    INGENIERIA DE SOFTWARE
+
+    AUTORES:    JEAN CARLO CEMBRANOS - jccembranos@espe.edu.ec
+                RICARDO GRIJALVA - rsgrijalva@espe.edu.ec
+                ALEXANDER MAILA - jamaila@espe.edu.ec
+                JIMMY SIMBANA - jasimbana14@espe.edu.ec
+                DANNY SAMBACHE - dasambache@espe.edu.ec (LIDER)
+
+    ENUNCIADO: Generar una tabla de Amortización
+
+    FECHA DE CREACION:        15-06-21
+    FECHA DE MODIFICACION:    24-06-21*/
 #include "Validar.h"
-//#include <stdlib.h>
 #include <conio.h>
-//#include <stdio.h>
 #include <iostream>
 
 using namespace std;
-
-string Validar::ingreso(string msj,int dim, bool espacio){
-	
-    char dato[dim];
-	int i;
-    char tecla;
-    cout<<msj;
-    i = 0;
-    dato[0] = '\0';
-    do{
-        tecla = getch ();
-        if(i<dim){
-        	if ( i > 0 && tecla == 8 )
-        {
-            cout<<"\b \b";
-            dato[--i] = '\0';
-        }
-        else{
-            if(espacio == false){
-                if ( (tecla >= 65 && tecla <= 95)  || 
-                 (tecla >= 97 && tecla <= 122) && 
-                  tecla != 32 || (tecla >= 48 && tecla <= 57))
-                {
-                cout<<tecla;
-                dato[i++] = tecla;
-                }
-            }else{
-                if ( (tecla >= 65 && tecla <= 95)  || 
-                 (tecla >= 97 && tecla <= 122) || 
-                  tecla == 32 || (tecla >= 48 && tecla <= 57))
-                {
-                cout<<tecla;
-                dato[i++] = tecla;
-                }
-            }
-        }
-        	
-		}	
-    } while ((tecla != 13 || dato[0] == '\0'));
-    dato[i] = '\0';
-	string retorno(dato);
-    return retorno;
-}
-
 
 string Validar::validarLetras(string msj,int dim, bool espacio){
 	
@@ -176,20 +144,3 @@ string Validar::validarCedula(){
     }while(!verificador);
     return cedula;
 }
-
-string Validar::validarTelfeno(){
-    bool verificador;
-    string telefono;
-    do{
-        verificador = true;
-        telefono = validarNumeros("Telefono: ",10);
-        if (telefono.length() != 10){
-            verificador = false;
-            cout<<endl;
-            cout << "\e[A\r\e[0K";
-        }
-    }while(verificador == false);
-
-    return telefono;
-}
-
