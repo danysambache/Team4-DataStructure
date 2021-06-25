@@ -1,0 +1,62 @@
+[
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/main.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/main.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/main.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Fecha.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Fecha.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Fecha.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/OperacionesFecha.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesFecha.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesFecha.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Persona.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Persona.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Persona.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Nodo.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Nodo.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Nodo.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/ListadoPersonas.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/ListadoPersonas.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/ListadoPersonas.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Lista.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Lista.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Lista.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/OperacionesPersona.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesPersona.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesPersona.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Validar.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Validar.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Validar.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Menu.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Menu.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Menu.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/Prestamo.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Prestamo.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/Prestamo.cpp"
+},
+{
+  "directory": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/build",
+  "command": "C:/MinGW/bin/mingw32-g++.exe   -g -o CMakeFiles/Proyecto_Final.dir/OperacionesCredito.cpp.obj -c \"D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesCredito.cpp\"",
+  "file": "D:/Semestre Mayo21-Sept21/ESTRUCTURAS DATOS/Proyecto-Final/OperacionesCredito.cpp"
+}
+]
